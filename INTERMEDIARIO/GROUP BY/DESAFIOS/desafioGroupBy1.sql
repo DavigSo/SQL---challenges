@@ -1,0 +1,5 @@
+-- EU PRECISO SABER QUANTAS PESSOAS TEM O MESMO MIDDLENAME AGRUPADAS POR O middlename
+
+SELECT MiddleName,COUNT(FirstName) AS "quantidade"
+FROM Person.Person
+GROUP BY MiddleName;
