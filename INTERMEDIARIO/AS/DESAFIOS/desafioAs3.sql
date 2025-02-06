@@ -1,0 +1,4 @@
+-- SALES.SALESORDERDETAILS INTITPRICE "PRECOUNITARIO"
+
+SELECT unitPrice as "Preço Unitario"
+FROM Sales.SalesOrderDetail;
